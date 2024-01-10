@@ -12,7 +12,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Fundamental\LucasNetLib.Fundamental.Common\LucasNetLib.Fundamental.Common.csproj" />
     <ProjectReference Include="..\..\Fundamental\LucasNetLib.Fundamental.Timer\LucasNetLib.Fundamental.Timer.csproj" />
   </ItemGroup>
 

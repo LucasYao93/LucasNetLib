@@ -5,37 +5,36 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{71A97C29-CADD-4004-BD66-0D2777863117}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LucasNetLib.UI.Console", "UI\LucasNetLib.UI.Console\LucasNetLib.UI.Console.csproj", "{0BDED31E-39ED-43EE-AC3B-56D109963A1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LucasNetLib.UI.Console", "UI\LucasNetLib.UI.Console\LucasNetLib.UI.Console.csproj", "{0BDED31E-39ED-43EE-AC3B-56D109963A1C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Communication", "Communication", "{C93C6E78-1EB4-4883-8AAB-A2931CA119F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LucasNetLib.Communication", "Communication\LucasNetLib.Communication\LucasNetLib.Communication.csproj", "{6D9F91D4-B929-4F67-8B53-1BD1E74C03B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LucasNetLib.Communication", "Communication\LucasNetLib.Communication\LucasNetLib.Communication.csproj", "{6D9F91D4-B929-4F67-8B53-1BD1E74C03B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LucasNetLib.UI.Winform", "UI\LucasNetLib.UI.Winform\LucasNetLib.UI.Winform.csproj", "{B526E7EA-9C15-4064-8EC7-EF4F5E079926}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LucasNetLib.UI.Winform", "UI\LucasNetLib.UI.Winform\LucasNetLib.UI.Winform.csproj", "{B526E7EA-9C15-4064-8EC7-EF4F5E079926}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LucasNetLib.UI.WPF", "UI\LucasNetLib.UI.WPF\LucasNetLib.UI.WPF.csproj", "{41C273CC-D03E-427B-9F6B-36416F77C911}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LucasNetLib.UI.WPF", "UI\LucasNetLib.UI.WPF\LucasNetLib.UI.WPF.csproj", "{41C273CC-D03E-427B-9F6B-36416F77C911}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Fundamental", "Fundamental", "{B5BFD827-CC4C-472C-888C-BA0F78A79FB7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LucasNetLib.Fundamental.Threading", "Fundamental\LucasNetLib.Fundamental.Threading\LucasNetLib.Fundamental.Threading.csproj", "{BEFD2749-5CD1-4A7E-9DCC-28BE1EA83961}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LucasNetLib.Fundamental.Threading", "Fundamental\LucasNetLib.Fundamental.Threading\LucasNetLib.Fundamental.Threading.csproj", "{BEFD2749-5CD1-4A7E-9DCC-28BE1EA83961}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LucasNetLib.Fundamental.Timer", "Fundamental\LucasNetLib.Fundamental.Timer\LucasNetLib.Fundamental.Timer.csproj", "{7BF73461-C5D4-470D-B45D-5CDEA5E3F196}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LucasNetLib.Fundamental.Timer", "Fundamental\LucasNetLib.Fundamental.Timer\LucasNetLib.Fundamental.Timer.csproj", "{7BF73461-C5D4-470D-B45D-5CDEA5E3F196}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LucasNetLib.Fundamental.Logging", "Fundamental\LucasNetLib.Fundamental.Logging\LucasNetLib.Fundamental.Logging.csproj", "{C1E59899-076D-40CC-984B-864C2EDA8E49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LucasNetLib.Fundamental.Logging", "Fundamental\LucasNetLib.Fundamental.Logging\LucasNetLib.Fundamental.Logging.csproj", "{C1E59899-076D-40CC-984B-864C2EDA8E49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LucasNetLib.Fundamental.DI", "Fundamental\LucasNetLib.Fundamental.DI\LucasNetLib.Fundamental.DI.csproj", "{A7B3DE10-A4AA-4770-B370-33941C44AAC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LucasNetLib.Fundamental.DI", "Fundamental\LucasNetLib.Fundamental.DI\LucasNetLib.Fundamental.DI.csproj", "{A7B3DE10-A4AA-4770-B370-33941C44AAC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LucasNetLib.Fundamental.Common", "Fundamental\LucasNetLib.Fundamental.Common\LucasNetLib.Fundamental.Common.csproj", "{B18D6DB4-3FD5-4723-AF6E-42B4EB397BF6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LucasNetLib.Fundamental.Configuration", "Fundamental\LucasNetLib.Fundamental.Configuration\LucasNetLib.Fundamental.Configuration.csproj", "{59B8E744-C64D-4CC3-AA11-DC663081792E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LucasNetLib.Fundamental.Configuration", "Fundamental\LucasNetLib.Fundamental.Configuration\LucasNetLib.Fundamental.Configuration.csproj", "{59B8E744-C64D-4CC3-AA11-DC663081792E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LucasNetLib.Fundamental.Cache", "Fundamental\LucasNetLib.Fundamental.Cache\LucasNetLib.Fundamental.Cache.csproj", "{BF414F8E-1E0D-441B-AE81-B547BB5D0857}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LucasNetLib.UI.Avalonia", "UI\LucasNetLib.UI.Avalonia\LucasNetLib.UI.Avalonia.csproj", "{1DDF9780-917B-4297-952A-71336F056E14}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{0BDED31E-39ED-43EE-AC3B-56D109963A1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -70,14 +69,21 @@ Global
 		{A7B3DE10-A4AA-4770-B370-33941C44AAC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7B3DE10-A4AA-4770-B370-33941C44AAC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7B3DE10-A4AA-4770-B370-33941C44AAC3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B18D6DB4-3FD5-4723-AF6E-42B4EB397BF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B18D6DB4-3FD5-4723-AF6E-42B4EB397BF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B18D6DB4-3FD5-4723-AF6E-42B4EB397BF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B18D6DB4-3FD5-4723-AF6E-42B4EB397BF6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{59B8E744-C64D-4CC3-AA11-DC663081792E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{59B8E744-C64D-4CC3-AA11-DC663081792E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59B8E744-C64D-4CC3-AA11-DC663081792E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59B8E744-C64D-4CC3-AA11-DC663081792E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF414F8E-1E0D-441B-AE81-B547BB5D0857}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF414F8E-1E0D-441B-AE81-B547BB5D0857}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF414F8E-1E0D-441B-AE81-B547BB5D0857}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF414F8E-1E0D-441B-AE81-B547BB5D0857}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DDF9780-917B-4297-952A-71336F056E14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DDF9780-917B-4297-952A-71336F056E14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DDF9780-917B-4297-952A-71336F056E14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DDF9780-917B-4297-952A-71336F056E14}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{0BDED31E-39ED-43EE-AC3B-56D109963A1C} = {71A97C29-CADD-4004-BD66-0D2777863117}
@@ -88,7 +94,8 @@ Global
 		{7BF73461-C5D4-470D-B45D-5CDEA5E3F196} = {B5BFD827-CC4C-472C-888C-BA0F78A79FB7}
 		{C1E59899-076D-40CC-984B-864C2EDA8E49} = {B5BFD827-CC4C-472C-888C-BA0F78A79FB7}
 		{A7B3DE10-A4AA-4770-B370-33941C44AAC3} = {B5BFD827-CC4C-472C-888C-BA0F78A79FB7}
-		{B18D6DB4-3FD5-4723-AF6E-42B4EB397BF6} = {B5BFD827-CC4C-472C-888C-BA0F78A79FB7}
 		{59B8E744-C64D-4CC3-AA11-DC663081792E} = {B5BFD827-CC4C-472C-888C-BA0F78A79FB7}
+		{BF414F8E-1E0D-441B-AE81-B547BB5D0857} = {B5BFD827-CC4C-472C-888C-BA0F78A79FB7}
+		{1DDF9780-917B-4297-952A-71336F056E14} = {71A97C29-CADD-4004-BD66-0D2777863117}
 	EndGlobalSection
 EndGlobal

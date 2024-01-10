@@ -79,8 +79,27 @@
 //int[] array = new int[1] { 1 };
 //GC.Collect(0, GCCollectionMode.Forced);
 
-int t = 10;
+//int t = 10;
 
-t.CompareTo(20);
+//t.CompareTo(20);
 
-Console.ReadKey();
+//Console.ReadKey();
+
+
+public class Program
+{
+    public static void Main()
+    {
+        try
+        {
+            new Thread(Go).Start();
+        }
+        catch (Exception ex)
+        {
+            // 永远执行不到这里
+            Console.WriteLine("Exception!");
+        }
+    }
+
+    static void Go() { throw null; }
+}
