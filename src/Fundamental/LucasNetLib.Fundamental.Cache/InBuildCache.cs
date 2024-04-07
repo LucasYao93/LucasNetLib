@@ -3,9 +3,9 @@
 /// <summary>
 /// .Net内建的Cache
 /// </summary>
-public class InBuildCache
+public class InBuildCache01
 {
-    static void Main()
+    static void Main01()
     {
         ObjectCache cache = MemoryCache.Default;
         string fileContents = cache["filecontents"] as string;
@@ -55,5 +55,25 @@ public class InBuildCache
         Console.WriteLine("键：" + arguments.UpdatedCacheItem.Key);
         Console.WriteLine("值：" + arguments.UpdatedCacheItem.Value);
         Console.WriteLine("原因：" + arguments.RemovedReason);
+    }
+}
+
+public class InBuildCache02
+{
+
+    static void Main()
+    {
+
+    }
+}
+
+public class NaiveCache<TItem>
+{
+    Dictionary<object, TItem> _cache = new Dictionary<object, TItem>();
+    public TItem GetOrCreate(object key, Func<TItem> createItem)
+    {
+        if (!_cache.ContainsKey(key))
+        { _cache[key] = createItem(); }
+        return _cache[key];
     }
 }
